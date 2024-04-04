@@ -2,14 +2,18 @@
 
 
 * {
-   
+   padding: 0px;
+   margin: 0px;
   }
-
+ 
   body{
    background-color: #D5D6DA;
 
    display: block;
    width: 60px;
+ }
+ h1{
+  text-align: end;
  }
 
  ul {
