@@ -1,47 +1,54 @@
 @charset "UTF-8";
 
 
-* {
-   padding: 0px;
-   margin: 0px;
+
+  body,ul,li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.header{
+  background-color: #1d1e20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between ;
+  padding: 20px;
+  align-items: center;
+
+}
+h1{
+    font-family: "Lato", sans-serif;
+    font-size: xx-large; 
+    color: white;
   }
- 
-  body{
-   background-color: #D5D6DA;
 
-   display: block;
-   width: 60px;
- }
- h1{
-  text-align: end;
- }
+img{
+  width: 70px;
+}
 
- ul {
-  
-   list-style-type: none;
-   margin: 0;
-   padding-left: 100px;
-   padding-top: 50px;
-   width: 200px;
-   background-color: #D5D6D;
- }
- 
- li a {
-   display: block;
-   color: black;
-   padding: 8px 16px;
-   text-decoration: none;
- }
- 
- /* Change the link color on hover */
- li a:hover {
-   background-color: #555;
-   color: white;
- }
- img{
-   padding-top: 15px;
- }
+.menu{
+  display: flex;
+}
+.menu li {
+  margin-left: 10px;
+}
 
- h1{
-   
- }
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+
+}
+@media (max-width: 800px) {
+  .menu {
+    flex-direction: column;
+  }
+}
