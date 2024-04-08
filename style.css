@@ -30,8 +30,8 @@ h1{
     color: white;
   }
 
-img{
-  width: 70px;
+.logo{ width: 70px;
+
 }
 
 .menu{
@@ -47,8 +47,34 @@ img{
   text-decoration: none;
 
 }
+
+}
+.naruto img{
+  border-radius: ;
+}
+.naruto p {
+  padding: 10px;
+  text-align: justify;
+  font-family: "Work Sans", sans-serif;  ;
+}
+
 @media (max-width: 800px) {
   .menu {
     flex-direction: column;
   }
+}
+.main{
+  min-height: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ 
+  
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
