@@ -47,6 +47,10 @@ h1{
   text-decoration: none;
 
 }
+.naruto{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 
 }
 .naruto img{
