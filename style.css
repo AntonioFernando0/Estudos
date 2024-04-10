@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
 
+.body{
+  background-image: url(imagem/230-Naruto-1-Temporada-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
   body,ul,li, p {
   margin: 0px;
@@ -9,14 +15,22 @@
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+nav a { color: #faf8f7;
+
+}
 a{
   text-decoration: none;
+  border-radius: 5px;
   color: white;
 
 }
+a:hover{
+  background-color:  #c07c2f; ;
+  color: white;
+}
 
 .header{
-  background-color: #1d1e20;
+  background-color: #F29325;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between ;
@@ -28,6 +42,7 @@ h1{
   font-family: "Work Sans", sans-serif;   
    font-size: xx-large; 
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.292);
   }
 
 .logo{ width: 70px;
@@ -49,33 +64,48 @@ h1{
 }
 .naruto{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  
 
 }
 .naruto img{
-  border-radius: ;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.292);
 }
 .naruto p {
   padding: 10px;
   text-align: justify;
   font-family: "Work Sans", sans-serif;  ;
 }
+.sasuke{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: row;
+  
 
+}
 @media (max-width: 800px) {
   .menu {
     flex-direction: column;
   }
 }
+
+
+
 .main{
   min-height: 300px;
   max-width: 1000px;
   margin: auto;
   margin-bottom: 30px;
   padding: 20px;
-  background-color: white;
+  background-color: #F4E2DE;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  
+  color: black;
  
   
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27);
