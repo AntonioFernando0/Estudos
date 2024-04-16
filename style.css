@@ -96,6 +96,22 @@ h1{
   text-align: justify;
   font-family: "Work Sans", sans-serif; 
 }
+
+.Gaara{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+.Gaara p{
+  padding: 10px;
+  text-align: justify;
+  font-family: "Work Sans", sans-serif; 
+}
 @media (max-width: 800px) {
   .menu {
     flex-direction: column;
