@@ -18,6 +18,10 @@
 nav a { color: #faf8f7;
 
 }
+#logo{
+  text-decoration: none;
+  
+}
 a{
   text-decoration: none;
   border-radius: 5px;
@@ -111,6 +115,22 @@ h1{
   padding: 10px;
   text-align: justify;
   font-family: "Work Sans", sans-serif; 
+}
+
+.Itachi{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.Itachi p {
+  padding: 10px;
+  text-align: justify;
+  font-family: "Work Sans", sans-serif;
 }
 @media (max-width: 800px) {
   .menu {
